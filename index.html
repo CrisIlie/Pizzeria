@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+        <title>Pizzeria</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="content-holder">
+              <h1>Pizzeria</h1>
+              <button class="btn-login" type="button" id="login">Log In</button>
+              <main class="main-content">
+                <div class="sidebar">
+                  <div class="box">
+                    <h2>Menu</h2>
+                    <ul class="menu-list">
+                      <li class="pizza-item"><a href="#margherita">Pizza margherita</a></li>
+                      <li class="pizza-item"><a href="#quatro">Pizza quattro formaggi</a></li>
+                      <li class="pizza-item"><a href="#Pepperoni">Pizza pepperoni</a></li>
+                      <li class="pizza-item"><a href="#salerno">Pizza Salerno</a></li>
+                      <li class="pizza-item"><a href="#roma">Pizza Roma</a></li>
+                    </ul>
+                    <div class="create-btn"><a href="#customPizza">Create your own pizza</a></div>
+                  </div>
+                  <div class="cart-holder box">
+                    Your cart value: <span class="cart-number"><span id="cart-value">0</span>$</span>          
+                  </div>
+                  <button class="btn-checkout" type="button" id="checkout">Check Out</button>
+                </div>
+                <div class="content box">
+                  <div class="content-section about-us">
+                    <h2>About us</h2>
+                    <p>Pizzeria - Pizza che ride</p>
+                    <p>Bringing smiles since we know each other! We are a pizzeria that always has a smile on its face (you know our logo!). And which one comes to you next when you get together with friends and laugh at the memories, when it's a colleague's birthday at the office and you laugh at kitten videos or when you want to at least bring a smile to your significant other's face and you order a surprise pizza.</p>
+                    <p>So from now on, every time you order from Pizzeria, remember that: For a happier life, you need to laugh more!</p>
+                  </div>
+                  <div id="pizza-list"></div>
+                </div>
+              </main>
+            </div>
+            <button onclick="topFunction()" id="top-btn" title="Go to top"></button>
+          </div>
+
+          <script src="pizzeria.js"></script>
+    </body>
+</html>
